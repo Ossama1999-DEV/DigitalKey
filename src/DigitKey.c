@@ -5,7 +5,7 @@
 
 
 #include <string.h>
-#include "inc/DigitKey.h"
+#include "DigitKey.h"
 
 void get_version(unsigned char *version) {
     char *stderr;
