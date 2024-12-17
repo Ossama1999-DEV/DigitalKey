@@ -17,3 +17,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 # Add subdirectories
 add_subdirectory(src)   # Compile source files into libDigitKey.so
 add_subdirectory(test)  # Compile tests
+set(CMAKE_EXE_LINKER_FLAGS "-mconsole")

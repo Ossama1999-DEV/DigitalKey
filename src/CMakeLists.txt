@@ -14,3 +14,4 @@ set_target_properties(DigitKey PROPERTIES VERSION ${PROJECT_VERSION})
 install(TARGETS DigitKey
     LIBRARY DESTINATION ${PROJECT_SOURCE_DIR}/lib
 )
+set(CMAKE_EXE_LINKER_FLAGS "-mconsole")
